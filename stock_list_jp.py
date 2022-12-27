@@ -1,6 +1,4 @@
 import pandas as pd
-import datetime
-import pandas_datareader.data as web
 
 # 東証HPからDLしてきた銘柄コード一覧をdf化
 def list_jp():

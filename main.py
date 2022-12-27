@@ -7,8 +7,9 @@ def worker():
     length = len(df_stock_list)
     for i in range(length):
         code_num = df_stock_list["コード"][i]
+        print(code_num)
         stock_data_jp.main(code_num)
-        time.sleep(5)
+        time.sleep(60)
 
 if __name__ == "__main__":
     worker()
